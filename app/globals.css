@@ -11,7 +11,7 @@
   --card-foreground: oklch(0.2 0.02 255);
   --popover: hsl(0 0% 100%);
   --popover-foreground: oklch(0.2 0.02 255);
-  --primary: hsl(350 70% 42%);
+  --primary: rgb(230, 57, 70);
   --primary-foreground: oklch(0.99 0 0);
   --secondary: hsl(10 12% 94%);
   --secondary-foreground: oklch(0.99 0 0);
@@ -76,7 +76,7 @@
 }
 
 @theme inline {
-  --font-sans: "Inter", "Inter Fallback", system-ui, -apple-system, sans-serif;
+  --font-sans: 'Nanum Gothic', 'Nanum Gothic Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
